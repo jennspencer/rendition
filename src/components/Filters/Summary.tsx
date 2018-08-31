@@ -116,7 +116,7 @@ class FilterSummary extends React.Component<
 						</form>
 					</Modal>
 				)}
-				<Flex justify="space-between">
+				<Flex justifyContent="space-between">
 					<Txt
 						fontSize={13}
 						mb={10}
@@ -136,7 +136,7 @@ class FilterSummary extends React.Component<
 						Save view
 					</Button>
 				</Flex>
-				<Flex wrap>
+				<Flex flexWrap>
 					{this.props.filters.map((filter, index) => {
 						return (
 							<Box mb={10} mr={10} key={index}>

@@ -371,7 +371,7 @@ class Filters extends React.Component<FiltersProps, FiltersState> {
 
 		return (
 			<FilterWrapper mb={3}>
-				<Flex justify="space-between">
+				<Flex justifyContent="space-between">
 					{this.shouldRenderComponent('add') && (
 						<Button
 							mr={30}

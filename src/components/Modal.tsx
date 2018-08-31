@@ -110,8 +110,8 @@ class Modal extends React.Component<ModalProps, any> {
 
 		return (
 			<ModalWrapper
-				align="center"
-				justify="center"
+				alignItems="center"
+				justifyContent="center"
 				onClick={() => (props.cancel || props.done)()}
 			>
 				<ModalBackdrop z={8888} bg="rgba(0,0,0,0.4)" top right bottom left />
@@ -134,7 +134,7 @@ class Modal extends React.Component<ModalProps, any> {
 							)
 						)}
 						{props.children}
-						<Flex mt={50} align="center" justify="flex-end">
+						<Flex mt={50} alignItems="center" justifyContent="flex-end">
 							{props.cancel && (
 								<Button {...cancelButtonProps} onClick={props.cancel}>
 									{(cancelButtonProps && cancelButtonProps.children) ||

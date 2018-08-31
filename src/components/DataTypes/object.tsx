@@ -347,7 +347,7 @@ export const Edit = (props: DataTypeEditProps) => {
 	}
 
 	return (
-		<Flex wrap>
+		<Flex flexWrap>
 			{includes(keyOperators, operator) && (
 				<Input
 					type="text"

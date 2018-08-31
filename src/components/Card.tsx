@@ -27,7 +27,7 @@ const Card = ({ title, cta, rows, children, ...props }: CardProps) => {
 
 	const Header = hasHeader && (
 		<React.Fragment>
-			<Flex justify="space-between" mb={14}>
+			<Flex justifyContent="space-between" mb={14}>
 				<Txt bold fontSize="16px" color="#000">
 					{title}
 				</Txt>

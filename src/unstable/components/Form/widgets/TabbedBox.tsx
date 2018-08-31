@@ -32,7 +32,7 @@ export class TabbedBox extends React.Component<TabbedBoxProps, TabbedBoxState> {
 
 		return (
 			<Box>
-				<Flex justify="space-between" mb={1}>
+				<Flex justifyContent="space-between" mb={1}>
 					<Flex>
 						{_.map(this.props.tabs, (tab, index: number) => {
 							return (
